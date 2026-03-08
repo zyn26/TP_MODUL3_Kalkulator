@@ -45,10 +45,9 @@
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(120, 30);
+            label1.Location = new Point(21, 34);
             label1.Name = "label1";
-            label1.Size = new Size(95, 20);
+            label1.Size = new Size(300, 67);
             label1.TabIndex = 0;
             label1.Text = "Label Output\r\n";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -61,6 +60,7 @@
             button1.TabIndex = 1;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -70,6 +70,7 @@
             button2.TabIndex = 2;
             button2.Text = "4";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -79,6 +80,7 @@
             button3.TabIndex = 3;
             button3.Text = "7";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -88,6 +90,7 @@
             button4.TabIndex = 4;
             button4.Text = "2";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -97,6 +100,7 @@
             button5.TabIndex = 5;
             button5.Text = "5";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -106,6 +110,7 @@
             button6.TabIndex = 6;
             button6.Text = "8";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // button7
             // 
@@ -115,6 +120,7 @@
             button7.TabIndex = 7;
             button7.Text = "9";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -124,6 +130,7 @@
             button8.TabIndex = 8;
             button8.Text = "6";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -133,6 +140,7 @@
             button9.TabIndex = 9;
             button9.Text = "3";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -142,6 +150,7 @@
             button10.TabIndex = 10;
             button10.Text = "+";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -151,6 +160,7 @@
             button11.TabIndex = 11;
             button11.Text = "0";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -160,6 +170,7 @@
             button12.TabIndex = 12;
             button12.Text = "=";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
             // 
             // Form1
             // 
@@ -182,7 +193,6 @@
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
